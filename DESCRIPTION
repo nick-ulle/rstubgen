@@ -1,0 +1,16 @@
+Package: rstubgen
+Title: Type Signatures for Functions That Call C Code
+Version: 0.0.0.9000
+Authors@R: c(
+  person("Nick", "Ulle", role = c("aut", "cre"),
+    email = "first.last@example.com")
+  )
+Description: This package uses the RCIndex package to generate type signatures
+  ("stubs") for R functions that call C code.
+Depends:
+  R (>= 3.4.1)
+Imports:
+  RCIndex
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
